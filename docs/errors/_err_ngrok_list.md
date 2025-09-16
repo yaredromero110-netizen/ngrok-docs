@@ -5259,6 +5259,14 @@
     </tr>
     <tr>
       <td>
+        <a id="ERR_NGROK_2262" href="/docs/errors/err_ngrok_2262">ERR_NGROK_2262</a>
+      </td>
+      <td class="pre-wrapped">
+        Internal HTTP/HTTPS endpoints do not support the on_tcp_connect Traffic Policy phase. Consider using a TCP or TLS endpoint instead.
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a id="ERR_NGROK_3002" href="/docs/errors/err_ngrok_3002">ERR_NGROK_3002</a>
       </td>
       <td class="pre-wrapped">
@@ -6073,6 +6081,46 @@
     </tr>
     <tr>
       <td>
+        <a id="ERR_NGROK_3803" href="/docs/errors/err_ngrok_3803">ERR_NGROK_3803</a>
+      </td>
+      <td class="pre-wrapped">
+        Model selection strategy failed: <code>&lt;ERR&gt;</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_3804" href="/docs/errors/err_ngrok_3804">ERR_NGROK_3804</a>
+      </td>
+      <td class="pre-wrapped">
+        No models are available from configured providers with valid API keys. Please check your provider configuration.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_3805" href="/docs/errors/err_ngrok_3805">ERR_NGROK_3805</a>
+      </td>
+      <td class="pre-wrapped">
+        All model selection strategy expressions resulted in an empty set after filtering by configured providers. Please check your model selection strategy and provider configuration.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_3806" href="/docs/errors/err_ngrok_3806">ERR_NGROK_3806</a>
+      </td>
+      <td class="pre-wrapped">
+        Model selection strategy expression <code>&lt;EXPRESSION&gt;</code> returned an invalid type: expected AIModel or []AIModel, got <code>&lt;ACTUALTYPE&gt;</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_3807" href="/docs/errors/err_ngrok_3807">ERR_NGROK_3807</a>
+      </td>
+      <td class="pre-wrapped">
+        All AI providers failed to respond successfully. The request could not be completed.
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a id="ERR_NGROK_3900" href="/docs/errors/err_ngrok_3900">ERR_NGROK_3900</a>
       </td>
       <td class="pre-wrapped">
@@ -6419,6 +6467,14 @@
       </td>
       <td class="pre-wrapped">
         Sign ups are disallowed for the email provided "<code>&lt;EMAIL&gt;</code>". Please sign up with a different email address.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_4119" href="/docs/errors/err_ngrok_4119">ERR_NGROK_4119</a>
+      </td>
+      <td class="pre-wrapped">
+        This account does not have access to service users, please upgrade to a paid plan.
       </td>
     </tr>
     <tr>
@@ -7619,7 +7675,7 @@
         <a id="ERR_NGROK_5539" href="/docs/errors/err_ngrok_5539">ERR_NGROK_5539</a>
       </td>
       <td class="pre-wrapped">
-        Encountered an error while decrypting the client secret.
+        Encountered an error while decrypting the field `<code>&lt;FIELD&gt;</code>`.
       </td>
     </tr>
     <tr>
